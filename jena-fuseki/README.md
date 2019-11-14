@@ -1,5 +1,7 @@
 # Jena Fuseki 2 docker image
 
+**主要作用：** 提供可视化的 Fuseki 运行服务器
+
 * Docker image: [stain/jena-fuseki](https://hub.docker.com/r/stain/jena-fuseki/)
 * Base images:  [java](https://hub.docker.com/r/_/java/):8-jre-alpine
 * Source: [Dockerfile](https://github.com/stain/jena-docker/blob/master/jena-fuseki/Dockerfile), [Apache Jena Fuseki](http://jena.apache.org/download/)
