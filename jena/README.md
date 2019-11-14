@@ -1,5 +1,7 @@
 # Jena command line tools
 
+**主页作用：** 提供 Jena 运行的终端命令行工具
+
 * Docker image: [stain/jena](https://hub.docker.com/r/stain/jena/)
 * Base images: [java](https://hub.docker.com/r/_/java/):8-jre-alpine
 * Source: [Dockerfile](https://github.com/stain/jena-docker/blob/master/jena/Dockerfile), [Apache Jena](http://jena.apache.org/download/)
