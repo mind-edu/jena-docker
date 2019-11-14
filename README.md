@@ -19,7 +19,7 @@ from Apache Software Foundation.
 
 ## 创建镜像
 
-下面的命令是创建镜像的，从Dockerhub上运行的，有点慢。具体的容器运行设置进行相应的文件夹下，也可以进入相应的文件夹下进行镜像的创建 :
+下面的命令是创建镜像的，有点慢。具体的容器运行设置进行相应的文件夹下，也可以进入相应的文件夹下进行镜像的创建 :
 
 ```shell
 docker build -t jena jena
