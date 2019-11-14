@@ -39,15 +39,19 @@ Different licenses apply to files added by different Docker layers:
 
 To try out this image, try:
 
+```shell
     docker run -p 3030:3030 stain/jena-fuseki
+```
 
 The Apache Jena Fuseki should then be available at http://localhost:3030/
 
 To expose Fuseki on a different port, simply modify first part of `-p`:
 
+**修改端口**
 
+```shell
     docker run -p 8080:3030 stain/jena-fuseki
-
+```
 
 To load RDF graphs, you will need to log in as the `admin` user. To see the
 automatically generated admin password, see the output from above, or
@@ -59,13 +63,19 @@ volume `/fuseki` is an empty directory.
 You can override the admin-password using the form
 `-e ADMIN_PASSWORD=pw123`:
 
-    docker run -p 3030:3030 -e ADMIN_PASSWORD=pw123 stain/jena-fuseki
+**修改Admin密码**
 
+```shell
+    docker run -p 3030:3030 -e ADMIN_PASSWORD=pw123 stain/jena-fuseki
+```
 To specify Java settings such as the amount of memory to allocate for the
 heap (default: 1200 MiB), set the `JVM_ARGS` environment with `-e`:
 
-    docker run -p 3030:3030 -e JVM_ARGS=-Xmx2g stain/jena-fuseki
+**修改JVM参数**
 
+```
+    docker run -p 3030:3030 -e JVM_ARGS=-Xmx2g stain/jena-fuseki
+```
 
 ## Data persistence
 
