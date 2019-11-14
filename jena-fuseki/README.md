@@ -63,7 +63,7 @@ volume `/fuseki` is an empty directory.
 You can override the admin-password using the form
 `-e ADMIN_PASSWORD=pw123`:
 
-**修改Admin密码**
+**修改Admin密码** 登陆用户名是 admin ，密码是 pw123
 
 ```shell
     docker run -p 3030:3030 -e ADMIN_PASSWORD=pw123 stain/jena-fuseki
